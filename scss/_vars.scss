@@ -1,0 +1,32 @@
+// color  
+$defoult: #424242; 
+$purple: #4340b4;
+$green: #00a896;
+$accent: #55a630;
+$lightgreen: #b7ecb1;
+$white: #fff;
+
+
+
+$maxWidthContainer: 1210px;
+$containerPadding: 30px;
+
+$containerWidth: $maxWidthContainer + $containerPadding;
+
+
+
+
+%raleway-reg{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+%raleway-medium{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+%raleway-semi{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
