@@ -17,6 +17,9 @@ body{
 .main{
     flex-grow: 1;
 }
+.footer{
+    flex: 0 0 auto;
+}
 
 .container{
     max-width: $containerWidth;
@@ -34,4 +37,18 @@ button{
     border: none;
     background-color: transparent;
 
+}
+.title{
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 1;
+    text-align: center;
+}
+.btn{
+    display: block;
+    width: 100%;
+    height: 56px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
 }
